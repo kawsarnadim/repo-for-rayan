@@ -32,3 +32,40 @@ h1{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5%;
+}
+.family-details{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.mother{
+    width: 300px;
+    /* border: 1px solid gray; */
+  
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+}
+
+.photo1 img{
+    width: 100%;
+
+}
+.photo2 img{
+    width: 50%;
+    height: auto;
+}
+.father{
+    padding: 10px;
+}
+.family{
+    display: flex;
+    /* align-items: space-around; */
+    justify-content: space-around;
+}
+
+
+
+
