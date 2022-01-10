@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/rayan1.jpg" type="image/x-icon">
     <title>web site for rayan</title>
+    <script src="https://kit.fontawesome.com/ceb07a8ea7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -33,46 +34,112 @@
 
 
     </section>
-
-    <section class="family-details">
+    <header>
         <h1>Here Is My Family</h1>
-
-        <div class="family">
-
-            <!----mother-->
-            <div class="mother">
-                <div class="photo1">
-                    <img src="images/ma.jpg" alt="">
-                </div>
-                <div class="scnd-part">
-                    <h2>My Mother</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quae officia repudiandae non
-                        nam minima ullam itaque cum iste doloribus!Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Facere, quae officia repudiandae non nam minima ullam itaque cum iste
-                        doloribus!
-                    </p>
-                    <button class="div-btn">Details</button>
-                </div>
+    </header>
+    <section class="family-details flexible-container">
+        <div class=" mom half-width">
+            <img src="images/ma.jpg" alt="">
+            <h2>Here is My Mom</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id aut similique vel! Ipsam vero in
+                deleniti doloribus, molestiae molestias placeat, aliquam quaerat id, eligendi recusandae nam. Quo,
+                incidunt veritatis.</p>
+            <button class="link-button">Details</button>
 
 
-
-            </div>
-
-            <!----father-->
-            <div class="father">
-                <div class="photo2">
-                    <img src="images/baba.jpg" alt="">
-                </div>
-                <div class="scnd-part">
-                    <h2> My Father</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt, architecto
-                        pariatur quis reprehenderit illo eum maxime asperiores similique odio ratione vitae, aperiam
-                        enim eaque molestiae voluptate nisi culpa nobis mollitia, facere delectus quidem! Dignissimos
-                        veniam aspernatur nemo dolor harum!</p>
-                    <button class="div-btn">Details</button>
-                </div>
-            </div>
         </div>
+        <div class="papa half-width">
+            <img src="images/baba.jpg" alt="">
+            <h2>here is my papa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt impedit quisquam odit eius ut sed
+                quam? Voluptas, aliquid quisquam corporis similique quasi aut numquam id porro et ab ex.</p>
+            <button class="link-button">Details</button>
+        </div>
+
+    </section>
+
+    <section class="video">
+        <header>
+            <h1>My first running video <i class="fas fa-running"></i></h1>
+        </header>
+        <div>
+            <video src="images/video/rayan-runing.mp4" controls></video>
+        </div>
+    </section>
+
+    <section class="table">
+        <header>
+            <h1> Our Family income </h1>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Selary</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>MOM</td>
+                    <td>Own restaurent</td>
+                    <td>2000$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>DAD</td>
+                    <td>Owner of tec</td>
+                    <td>5000$</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>mama</td>
+                    <td>assigsten</td>
+                    <td>200$</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Me</td>
+                    <td>owner of all</td>
+                    <td>All of mine</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section class="input">
+        <header>
+            <h1> Application for Jobs </h1>
+        </header>
+
+        <form action="">
+            <p>Name: <input type="text" name="" placeholder="Enter your name" id=""></p>
+            <p>Email: <input type="text" name="" placeholder="Enter your email" id=""></p>
+            <fieldset>
+                <legend> Select Your Qualification</legend>
+                <label for="CV">
+                    <p><input type="checkbox" name="SSC" id="CV">SSC</p>
+                </label>
+                <label for="CV">
+                    <p><input type="checkbox" name="HSC" id="CV">HSC</p>
+                </label>
+                <label for="CV">
+                    <p><input type="checkbox" name="Honrs" id="CV">Honrs</p>
+                </label>
+                <label for="CV">
+                    <p><input type="checkbox" name="Masters" id="CV">Masters</p>
+                </label>
+            </fieldset>
+            <h3>Put your comments</h3>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+        </form>
 
 
     </section>

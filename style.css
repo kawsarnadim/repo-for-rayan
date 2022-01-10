@@ -11,19 +11,21 @@ h1{
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
-    background-image: url(images/r2.jpg);
-    background-repeat: no-repeat;
+  
 
 }
+.top-banner{
+    background-image: url(images/r2.jpg);
+    background-repeat: no-repeat;
+}
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
-    height: 90%;
-    padding-top: 5%;
+    width: 100%;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -33,38 +35,48 @@ h1{
     padding: 10px 40px;
     border-radius: 5%;
 }
-.family-details{
+header{
     text-align: center;
-    width: 90%;
-    margin: auto;
-    padding: 50px;
+    background-color: rgba(255, 127, 80, 0.664);
+    margin: 0 200px;
+}
+.papa{
+    padding: 2%;
+    border:1px solid darkgray;
+    background-color: rgba(71, 61, 139, 0.082);
+    margin: 20px;
+    box-shadow: 10px 20px rgba(128, 128, 128, 0.342) ;
     
 }
-
-.mother{
-    width: 300px;
-    /* border: 1px solid gray; */
-  
-    border-radius: 5px;
-    box-shadow: 4px 4px 12px gray;
+.mom{
+    padding: 2%;
+    border:1px solid darkgray;
+    background-color: rgba(71, 61, 139, 0.082);
+    margin: 20px;
+    box-shadow: 10px 20px rgba(128, 128, 128, 0.623);
+}
+.fas{
+    font-size: 200px;
+    
+}
+table{
+    border-collapse: collapse;
+    margin: 50px 400px ;
+    background-color: black;
+    
+}
+td, th{
+    border: 2px solid red;
+    padding: 20px;
+}
+form{
+    margin: 20px;
+    cursor:pointer;
 }
 
-.photo1 img{
-    width: 100%;
+    
 
-}
-.photo2 img{
-    width: 50%;
-    height: auto;
-}
-.father{
-    padding: 10px;
-}
-.family{
-    display: flex;
-    /* align-items: space-around; */
-    justify-content: space-around;
-}
+
 
 
 

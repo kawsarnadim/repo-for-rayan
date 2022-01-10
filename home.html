@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        nav>ul {
+            display: flex;
+            margin-left: 100px;
+        }
+
+        nav li {
+            list-style: none;
+            margin-right: 20px;
+            padding: 0 20px;
+        }
+
+        nav li:hover {
+            background-color: beige;
+        }
+
+        nav li a {
+            text-decoration: none;
+        }
+
+        .drp:hover>ul {
+            display: block;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: darksalmon;
+            padding: 0%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="">table</a></li>
+                <li class="drp"><a href="">home
+                        <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                            <li><a href="">link-4</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">source</a></li>
+            </ul>
+        </nav>
+
+
+        <h1>Welcome to another practice</h1>
+    </header>
+
+</body>
+
+</html>
